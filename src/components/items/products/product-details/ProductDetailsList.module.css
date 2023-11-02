@@ -1,0 +1,79 @@
+.productDetails {
+  display: flex;
+  width: 70%;
+  margin: 0px auto;
+  margin-top: 7%;
+  animation: animate 1s ease-out forwards;
+}
+
+.productDetails img {
+  width: 100%;
+  height: auto;
+}
+
+.productDetails .img {
+  padding: 10px;
+}
+
+.productDetails .wrapper {
+  padding: 10px;
+}
+
+.productDetails .wrapper .title {
+  font-family: 'Aboreto', cursive;
+  font-weight: bolder;
+}
+
+.productDetails .wrapper .category {
+  color: rgba(0, 0, 0, 0.336);
+  font-weight: bold;
+}
+
+.productDetails .wrapper .price {
+  text-decoration: line-through;
+  color: brown;
+}
+
+.productDetails .wrapper h4 {
+  margin: 0px;
+}
+
+.productDetails .wrapper .description {
+  font-weight: bold;
+}
+
+.productDetails .wrapper .justify {
+  text-align: justify;
+}
+
+@keyframes animate {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .productDetails {
+    width: 90%;
+    flex-direction: column;
+    margin-top: 25%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .productDetails {
+    margin-top: 15%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .productDetails {
+    margin-top: 7%;
+  }
+}

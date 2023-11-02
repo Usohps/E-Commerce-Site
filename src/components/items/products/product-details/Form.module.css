@@ -1,0 +1,17 @@
+.form .button {
+  padding: 10px;
+  width: 100%;
+  background-color: #00202f;
+  color: #aea266;
+  border: 1px solid #00202f;
+  font-weight: bold;
+}
+
+.form .button:hover {
+  background-color: #d3c686;
+  color: white;
+  border: 1px solid #ecdf9a;
+  text-decoration: underline;
+  transition: 0.5s;
+  cursor: pointer;
+}

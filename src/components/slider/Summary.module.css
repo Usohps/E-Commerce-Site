@@ -1,0 +1,35 @@
+.summary {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex {
+  display: flex;
+  padding: 10px;
+}
+
+.flex h3 {
+  font-family: 'Aboreto', cursive;
+}
+
+.flex:hover {
+  background-color: #aea26641;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.text {
+  text-align: center;
+  color: #aea266;
+  letter-spacing: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .summary {
+    flex-direction: column;
+  }
+
+  .flex {
+    margin: 0px 60px;
+  }
+}

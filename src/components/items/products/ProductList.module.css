@@ -1,0 +1,76 @@
+.productList {
+  margin: 10px;
+  text-align: center;
+  animation: animate 1s ease-out forwards;
+}
+
+.productList a {
+  text-decoration: none;
+  color: black;
+}
+
+.productList .reletive {
+  position: relative;
+}
+
+.productList .reletive:hover {
+  opacity: 0.8;
+  display: block;
+}
+
+.productList .button {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  width: 100%;
+  background-color: #00202f;
+  color: #aea266;
+  border: 1px solid #00202f;
+  font-weight: bold;
+}
+
+.productList .button:hover {
+  background-color: #d3c686;
+  color: white;
+  border: 1px solid #ecdf9a;
+  text-decoration: underline;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.productList img {
+  width: 100%;
+  height: auto;
+}
+
+.productList h4 {
+  margin: 0px;
+}
+
+.productList .title {
+  font-family: 'Aboreto', cursive;
+  font-weight: bolder;
+}
+
+.productList .category {
+  color: rgba(0, 0, 0, 0.336);
+  font-weight: bolder;
+}
+
+.price {
+  text-decoration: line-through;
+  color: brown;
+}
+
+@keyframes animate {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

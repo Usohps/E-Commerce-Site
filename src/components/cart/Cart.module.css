@@ -1,0 +1,140 @@
+.cart {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart .cart-items {
+    list-style: none;
+    margin: 0;
+    width: 60%;
+    padding: 0;
+}
+
+.heading {
+    margin-top: 7%;
+    margin-bottom: 0px;
+    letter-spacing: 5px;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Aboreto', cursive;
+}
+
+.cart .action {
+    width: 40%;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    padding: 0 2rem;
+    font-family: 'Aboreto', cursive;
+}
+
+.actions {
+    text-align: right;
+    padding: 0 2rem;
+
+}
+
+.actions button {
+    font: inherit;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #8a2b06;
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+    margin-left: 1rem;
+}
+
+.actions button:hover,
+.actions button:active {
+    background-color: #d3c686;
+    color: white;
+    border: 1px solid #ecdf9a;
+    text-decoration: underline;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.actions .button {
+    background-color: #00202f;
+    color: #aea266;
+    border: 1px solid #00202f;
+    font-weight: bold;
+}
+
+.para {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.para .button {
+    padding: 10px;
+    background-color: #00202f;
+    color: #aea266;
+    border: 1px solid #00202f;
+    font-weight: bold;
+}
+
+.para .button a {
+    color: #aea266;
+    text-decoration: none;
+
+}
+
+.para .button:hover {
+    background-color: #d3c686;
+    color: white;
+    border: 1px solid #ecdf9a;
+    text-decoration: underline;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .cart {
+        flex-direction: column;
+    }
+
+    .heading {
+        margin-top: 20%;
+        margin-bottom: 0px;
+        font-size: 1.25rem;
+    }
+
+    .para {
+        margin-top: 20%;
+    }
+
+    .cart .cart-items {
+        width: 100%;
+    }
+
+    .cart .action {
+        width: 100%;
+        position: static;
+    }
+
+    .total {
+        font-size: 1.25rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .heading {
+        margin-top: 10%;
+        margin-bottom: 0px;
+
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .heading {
+        margin-top: 7%;
+        margin-bottom: 0px;
+    }
+}
