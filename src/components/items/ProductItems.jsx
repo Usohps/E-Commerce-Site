@@ -89,9 +89,9 @@ const DUMMY_ITEMS = [
 const ProductItems = () => {
   return (
     <React.Fragment>
-      <div className={classes.product}>
-        <h3>NEW PRODUCTS</h3>
-        <Link to='/products'>VIEW ALL</Link>
+      <div className=" container flex justify-between items-center m-auto p-4">
+        <h3 className='text-sm font-bold'>NEW PRODUCTS</h3>
+        <Link to='/products' className='border-[#aea266] border text-xs p-2 rounded font-bold bg-[#aea266] hover:bg-white text-white hover:text-[#aea266]'>VIEW ALL</Link>
       </div>
       <ul className={classes.productList}>
         {DUMMY_ITEMS.map((items) => (

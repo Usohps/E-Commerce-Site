@@ -1,4 +1,3 @@
-import React from 'react';
 import classes from './Footer.module.css';
 
 const Footer = () => {
@@ -13,18 +12,18 @@ const Footer = () => {
         </p>
         <ul>
           <li>
-            <span class='material-symbols-outlined'>location_on</span> Lagos,
+            <span className='material-symbols-outlined'>location_on</span> Lagos,
             Nigeria
           </li>
           <li>
-            <span class='material-symbols-outlined'>call</span> 07088341232,
+            <span className='material-symbols-outlined'>call</span> 07088341232,
             09099126478
           </li>
           <li>
-            <span class='material-symbols-outlined'>mail</span> fahion@gmail.com
+            <span className='material-symbols-outlined'>mail</span> fahion@gmail.com
           </li>
           <li>
-            <span class='material-symbols-outlined'>schedule</span> Mon - Sat /
+            <span className='material-symbols-outlined'>schedule</span> Mon - Sat /
             10:00 AM - 4:00 PM
           </li>
         </ul>
