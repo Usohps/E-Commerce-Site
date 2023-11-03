@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import img from '../../assets/img/autumn.jpg';
 import img1 from '../../assets/img/brian.jpg';
 import img2 from '../../assets/img/turner.jpg';
-import Button from '../UI/Button';
+// import Button from '../UI/Button';
 import Summary from './Summary';
 
 const Slider = () => {
@@ -19,9 +19,9 @@ const Slider = () => {
               <h1>NEW COLLECTIONS</h1>
               <h4>Beautifully Designed Series</h4>
             </div>
-            <Button>
+            <button className='custom-button hover:custom-button'>
               <Link to='/products' className='text-sm'>SHOP NOW</Link>
-            </Button>
+            </button>
           </div>
         </div>
 
@@ -31,9 +31,9 @@ const Slider = () => {
             <div className="absolute top-[50%] left-[10%]">
               <div className="">
                 <h5>ALECIA BRANDS</h5>
-                <Button>
+                <button className='custom-button hover:custom-button'>
                   <Link to='/products' className='text-sm'>SHOP NOW</Link>
-                </Button>
+                </button>
               </div>
             </div>
           </div>
@@ -44,9 +44,9 @@ const Slider = () => {
             <div className="absolute top-[50%] left-[10%]">
               <div className="">
                 <h5>BRAIN BRANDS</h5>
-                <Button>
+                <button className='custom-button hover:custom-button'>
                   <Link to='/products' className='text-sm'>SHOP NOW</Link>
-                </Button>
+                </button>
               </div>
             </div>
           </div>
