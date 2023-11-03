@@ -6,6 +6,7 @@ import { toggleActions } from '../../store';
 import {AiOutlineShoppingCart} from "react-icons/ai"
 import {BiSolidUserCircle} from "react-icons/bi"
 import {GiHamburgerMenu} from "react-icons/gi"
+import {FiSearch} from "react-icons/fi"
 import classes from './Navbar.module.css';
 
 const Navbar = () => {
@@ -56,7 +57,7 @@ const Navbar = () => {
         </div>
         <form className={classes.form}>
           <input type='text' placeholder='Search for products' />
-          <button>Search</button>
+          <button><FiSearch size={24}/></button>
         </form>
         <ul>
           <li>

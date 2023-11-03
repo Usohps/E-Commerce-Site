@@ -20,7 +20,7 @@ const Slider = () => {
               <h4>Beautifully Designed Series</h4>
             </div>
             <Button>
-              <Link to='/products'>SHOP NOW</Link>
+              <Link to='/products' className='text-sm'>SHOP NOW</Link>
             </Button>
           </div>
         </div>
@@ -31,7 +31,7 @@ const Slider = () => {
               <div className={classes.text}>
                 <h5>ALECIA BRANDS</h5>
                 <Button>
-                  <Link to='/products'>SHOP NOW</Link>
+                  <Link to='/products' className='text-sm'>SHOP NOW</Link>
                 </Button>
               </div>
             </div>
@@ -42,7 +42,7 @@ const Slider = () => {
               <div className={classes.text}>
                 <h5>BRAIN BRANDS</h5>
                 <Button>
-                  <Link to='/products'>SHOP NOW</Link>
+                  <Link to='/products' className='text-sm'>SHOP NOW</Link>
                 </Button>
               </div>
             </div>
