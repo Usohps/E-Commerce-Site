@@ -1,7 +1,5 @@
-import React from 'react';
 import { useParams } from 'react-router-dom';
 import ProductDetailsList from '../components/items/products/product-details/ProductDetailsList';
-
 import img from '../assets/img/rocknwool.jpg';
 import img1 from '../assets/img/pooja.jpg';
 import img2 from '../assets/img/artems.jpg';

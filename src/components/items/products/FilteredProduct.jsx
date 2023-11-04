@@ -9,7 +9,7 @@ const FilteredProduct = (props) => {
     <div className={classes.wrapper}>
       <div className={classes.productfilter}>
         <label>
-          <span class='material-symbols-outlined'>sort</span>
+          <span>sort by</span>
         </label>
         <select value={props.selected} onChange={dropDownChangeHandler}>
           <option>Default</option>

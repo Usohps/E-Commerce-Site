@@ -12,40 +12,40 @@ const Slider = () => {
     <React.Fragment>
       <div className=" container m-auto h-[400px] mt-24 flex justify-center">
         <div className="border md:w-1/2 relative">
-          <img src={img} className=' w-full h-full' alt='img' />
-          <div className="absolute top-[50%] left-[10%]">
-            <div className="">
+          <img src={img} className=' w-full h-full opacity-[0.8]' alt='img' />
+          <div className="absolute top-[60%] left-[5%]">
+            <div className=" text-white font-bold text-xl">
               <h4>TOP BRANDS</h4>
               <h1>NEW COLLECTIONS</h1>
               <h4>Beautifully Designed Series</h4>
             </div>
             <button className='custom-button hover:custom-button'>
-              <Link to='/products' className='text-sm'>SHOP NOW</Link>
+              <Link to='/products' className='text-sm font-bold'>SHOP NOW</Link>
             </button>
           </div>
         </div>
 
         <div className="hidden md:flex items-center justify-center w-1/2">
           <div className="relative w-1/2">
-            <div className='w-full'><img src={img1} className='w-full h-[400px]' alt='img' /></div>
-            <div className="absolute top-[50%] left-[10%]">
+            <div className='w-full'><img src={img1} className='w-full h-[400px] opacity-[0.8]' alt='img' /></div>
+            <div className="absolute top-[60%] left-[10%]">
               <div className="">
-                <h5>ALECIA BRANDS</h5>
+                <h5 className='text-white font-bold text-xl'>ALECIA BRANDS</h5>
                 <button className='custom-button hover:custom-button'>
-                  <Link to='/products' className='text-sm'>SHOP NOW</Link>
+                  <Link to='/products' className='text-sm font-bold'>SHOP NOW</Link>
                 </button>
               </div>
             </div>
           </div>
           <div className="relative w-1/2">
             <div className='w-ful'>
-              <img src={img2} className='w-full h-[400px]' alt='img' />
+              <img src={img2} className='w-full h-[400px] opacity-[0.8]' alt='img' />
               </div>
-            <div className="absolute top-[50%] left-[10%]">
+            <div className="absolute top-[60%] right-[20%]">
               <div className="">
-                <h5>BRAIN BRANDS</h5>
+                <h5 className='text-white font-bold text-xl'>BRAIN BRANDS</h5>
                 <button className='custom-button hover:custom-button'>
-                  <Link to='/products' className='text-sm'>SHOP NOW</Link>
+                  <Link to='/products' className='text-sm font-bold'>SHOP NOW</Link>
                 </button>
               </div>
             </div>

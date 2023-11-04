@@ -164,9 +164,9 @@ const ProductsItems = () => {
 
   return (
     <React.Fragment>
-      <div className={classes.top}>
-        <h3>- SHOP -</h3>
-        <p>
+      <div className="container m-auto mt-32">
+        <h3 className='text-center text-2xl font-bold'>- SHOP -</h3>
+        <p className='text-center italic'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
